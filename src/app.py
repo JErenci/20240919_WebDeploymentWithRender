@@ -89,5 +89,7 @@ def update_output(list_of_contents,list_of_names, list_of_dates):
             zip(list_of_contents, list_of_names, list_of_dates)]
         return children
 
+# app.layout = [html.Div(children='Hello World 19 Sept 2024 9h in Sant JoanDespí')]
+
 if __name__ == '__main__':
     app.run(debug=True)
